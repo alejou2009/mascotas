@@ -18,6 +18,7 @@ public class Mascotas {
         // TODO code application logic here
         // hola hola
         //Hola 2 jou
+        // esto es encapsulacion
         
     }
     
