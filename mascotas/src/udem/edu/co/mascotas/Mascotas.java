@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mascotas;
+package udem.edu.co.mascotas;
 
 /**
  *
@@ -16,9 +16,6 @@ public class Mascotas {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        // hola hola
-        //Hola 2 jou
-        //esto es abstraccion
         
     }
     
