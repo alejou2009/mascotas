@@ -24,6 +24,10 @@ public class Perro extends Carnivoro implements Animal{
         this.nombre = nombre;
     }
 
+    public Perro() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public int getExtremidades() {
         return extremidades;
     }
