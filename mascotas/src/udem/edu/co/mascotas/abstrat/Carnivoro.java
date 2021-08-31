@@ -9,6 +9,19 @@ package udem.edu.co.mascotas.abstrat;
  *
  * @author User
  */
-public class Carnivoro {
+public abstract class Carnivoro {
+    private String alimentacion;
+
+    public Carnivoro() {
+        this.alimentacion = "carne";
+    }
+
+    public String getAlimentacion() {
+        return alimentacion;
+    }
+
+    public void setAlimentacion(String alimentacion) {
+        this.alimentacion = alimentacion;
+    }
     
 }

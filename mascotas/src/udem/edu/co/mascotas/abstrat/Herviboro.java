@@ -9,6 +9,19 @@ package udem.edu.co.mascotas.abstrat;
  *
  * @author User
  */
-public class Herviboro {
+public abstract class Herviboro {
+    private String alimentacion;
+
+    public Herviboro() {
+        this.alimentacion = "vegetales";
+    }
+
+    public String getAlimentacion() {
+        return alimentacion;
+    }
+
+    public void setAlimentacion(String alimentacion) {
+        this.alimentacion = alimentacion;
+    }
     
 }
