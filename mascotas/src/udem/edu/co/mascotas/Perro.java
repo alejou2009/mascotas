@@ -5,11 +5,13 @@
  */
 package udem.edu.co.mascotas;
 
+import udem.edu.co.mascotas.abstrat.Carnivoro;
+
 /**
  *
  * @author User
  */
-public class Perro {
+public class Perro extends Carnivoro{
     
     private int extremidades;
     private String color;

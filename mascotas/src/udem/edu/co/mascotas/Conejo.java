@@ -5,11 +5,13 @@
  */
 package udem.edu.co.mascotas;
 
+import udem.edu.co.mascotas.abstrat.Herviboro;
+
 /**
  *
  * @author User
  */
-public class Conejo {
+public class Conejo extends Herviboro{
     
     private int extremidades;
     private String color;
