@@ -5,13 +5,14 @@
  */
 package udem.edu.co.mascotas;
 
+import udem.edu.co.interfaces.Animal;
 import udem.edu.co.mascotas.abstrat.Carnivoro;
 
 /**
  *
  * @author User
  */
-public class Perro extends Carnivoro{
+public class Perro extends Carnivoro implements Animal{
     
     private int extremidades;
     private String color;
@@ -45,5 +46,10 @@ public class Perro extends Carnivoro{
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    @Override
+    public String mover() {
+        return "correr";
     }
 }

@@ -5,13 +5,14 @@
  */
 package udem.edu.co.mascotas;
 
+import udem.edu.co.interfaces.Animal;
 import udem.edu.co.mascotas.abstrat.Herviboro;
 
 /**
  *
  * @author User
  */
-public class Conejo extends Herviboro{
+public class Conejo extends Herviboro implements Animal{
     
     private int extremidades;
     private String color;
@@ -45,5 +46,10 @@ public class Conejo extends Herviboro{
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    @Override
+    public String mover() {
+        return "saltar";
     }
 }
